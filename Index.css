@@ -1,0 +1,25 @@
+body {
+    background-color: #a5ecff;
+}
+h1 {
+    text-align: center;
+    color: #455785;
+    padding: 20px;
+    font-family: Jura, san serif;
+}
+mark {
+    background-color: white;
+    border: 1px solid black;
+}
+#circle_1 {
+    height:120px;
+    width:120px;
+    background-color: #61d258;
+    border-radius:60px;
+    margin-bottom:5px;
+    border: 1px solid black;
+}
+p {
+    text-align: center;
+    margin-top: 35px;
+}
