@@ -5,21 +5,24 @@ h1 {
     text-align: center;
     color: #455785;
     padding: 20px;
-    font-family: Jura, san serif;
+    font-family: Jura, san-serif;
 }
 p {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 50px;
 }
 mark {
     background-color: white;
     border: 1px solid black;
 }
 .circle_1 {
-    height:120px;
-    width:120px;
+    height:150px;
+    width:150px;
     background-color: #61d258;
-    border-radius:60px;
+    border-radius:100px;
     margin-bottom:5px;
+    margin-left: -70px;
     border: 1px solid black;
 }
+
+
