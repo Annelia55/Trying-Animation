@@ -9,20 +9,24 @@ h1 {
 }
 p {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 mark {
     background-color: white;
     border: 1px solid black;
 }
 .circle_1 {
-    height:150px;
-    width:150px;
-    background-color: #61d258;
-    border-radius:100px;
+    height:100px;
+    width:100px;
+    background-color: #67f45e;
+    border-radius:120px;
     margin-bottom:5px;
     margin-left: -70px;
     border: 1px solid black;
 }
+.drag {
+    text-align: center;
+}
+
 
 
