@@ -20,15 +20,28 @@ $(document).ready(function() {
 
 /* smile-drag */
 $(function() {
-    $( ".drag" ).draggable();
-});
-$(document).ready(function() {
-    $(".drag").mouseenter(function() {
-        $( "p:first", this ).text("Wohoooo");
+    var label = $("#label");
+    var startX;
+    var stopX;
+    var startY;
+    var stopY;
 
-    });
-    $(".drag").mouseleave(function(){
-        $( "p:first", this ).text("Thanks");
-
+    $( ".drag" ).draggable({
+        start: function(event, ui) {
+            startX = ui.position.left;
+            startY = ui.position.top;
+            label.text("Wohoooo");
+        },
+        stop: function(event, ui) {
+            stopX = ui.position.left;
+            stopY = ui.position.top;
+            var dX = stopX - startX;
+            var dY = stopY - startY;
+            if ( dX > 100 || dX < -100 || dY > 100 || dY < -100) {
+                label.text("Thanks");
+            } else {
+                label.text("No! It's not enough!");
+            }
+        }
     });
 });
