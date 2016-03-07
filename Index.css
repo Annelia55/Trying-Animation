@@ -27,6 +27,15 @@ mark {
 .drag {
     text-align: center;
 }
+.pens {
+    margin-left: 55px;
+}
+button {
+    margin-left: 90px;
+    margin-top: 20px;
+    color: #a28d51;
+    position: absolute;
+}
 
 
 
