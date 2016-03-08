@@ -27,15 +27,20 @@ mark {
 .drag {
     text-align: center;
 }
-.pens {
-    margin-left: 55px;
+#dog {
+    margin-left: 50px;
+    margin-top: 5px;
 }
 button {
-    margin-left: 90px;
+    margin-left: 85px;
     margin-top: 20px;
     color: #a28d51;
     position: absolute;
 }
+.book {
+    margin-left: 85px;
+}
+
 
 
 
