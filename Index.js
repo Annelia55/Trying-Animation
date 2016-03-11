@@ -48,16 +48,25 @@ $(function() {
 
 /* dog fadeTo */
 $(document).ready(function(){
-    $("button").click(function(){
-        $("button").effect("shake",{direction: "up",  times:4, distance: 10}, "slow" );
+    $(".btn").click(function(){
+        $(".btn").effect("shake",{direction: "up",  times:4, distance: 10}, "slow" );
         $("#dog").fadeTo("slow", 0.4);
     });
 });
 
 /* books fadeOut */
-
 $(document).ready(function(){
     $(".dis").click(function() {
         $(this).fadeOut("slow");
     });
 });
+$(document).ready(function(){
+    $("#light").click(function(){
+        $(this).addClass("highlighted");
+    });
+});
+
+
+
+
+

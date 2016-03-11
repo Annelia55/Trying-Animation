@@ -6,6 +6,7 @@ h1 {
     color: #455785;
     padding: 20px;
     font-family: Jura, san-serif;
+    margin-bottom: 50px;
 }
 p {
     text-align: center;
@@ -15,6 +16,8 @@ mark {
     background-color: white;
     border: 1px solid black;
 }
+
+/* growing circle */
 .circle_1 {
     height:100px;
     width:100px;
@@ -24,22 +27,44 @@ mark {
     margin-left: -70px;
     border: 1px solid black;
 }
+
+/* smile-drag */
 .drag {
     text-align: center;
 }
+
+/* dog fadeTo */
 #dog {
     margin-left: 50px;
     margin-top: 5px;
 }
-button {
+.btn {
     margin-left: 85px;
     margin-top: 20px;
-    color: #a28d51;
+    background-color: white;
     position: absolute;
+    border: 1px solid black;
 }
+
+/* books fadeOut */
 .book {
     margin-left: 85px;
 }
+.highlighted {
+    -webkit-box-shadow: 0 0 13px #FFD700;
+    -moz-box-shadow: 0 0 13px #FFD700;
+    box-shadow: 0 0 13px #fffd1a;
+    cursor:pointer;
+}
+#light{
+    background-color: white;
+    margin-top: 25px;
+    padding: 10px;
+    cursor:pointer;
+}
+
+
+
 
 
 
