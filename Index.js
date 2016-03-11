@@ -66,6 +66,13 @@ $(document).ready(function(){
     });
 });
 
+/* Slide Up/Down */
+$(document).ready(function(){
+    $('.pull-me').click(function(){
+        $(".panel").slideToggle("slow");
+    });
+});
+
 
 
 

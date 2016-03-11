@@ -63,6 +63,41 @@ mark {
     cursor:pointer;
 }
 
+/* Slide Up/Down */
+.pull-me{
+    -webkit-box-shadow: 0 0 7px #927a52;
+    -moz-box-shadow: 0 0 7px #927a52;
+    box-shadow: 0 0 7px #927a52;
+    cursor:pointer;
+    display:block;
+    position:relative;
+    width:150px;
+    height:20px;
+    font-family:arial,sans-serif;
+    font-size:14px;
+    color:#ffffff;
+    background: #d9c191;
+    text-decoration:none;
+    -moz-border-bottom-left-radius:5px;
+    -moz-border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.panel {
+    background: #fefff3;
+    font-family:Jura,times-new-roman,serif;
+    height: 150px;
+    margin-top: 3px;
+}
+.slide {
+    margin-top:-19px;
+    width: 165px;
+    border-top:solid 1px #b7a180;
+}
+.panel-move {
+    margin-left: 40px;
+}
+
 
 
 
