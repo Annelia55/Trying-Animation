@@ -9,7 +9,7 @@ $(document).ready(function() {
         }, "fast");
     });
     $(".circle_1").mouseleave(function(){
-        $(".circle_1").css("background-color", "#67f45e");
+        $(".circle_1").css("background-color", "#e5cc94");
         $( "p:first", this ).text("Touch me and I'll grow");
         $(this).animate({
             height   : "100",
@@ -72,6 +72,10 @@ $(document).ready(function(){
         $(".panel").slideToggle("slow");
     });
 });
+
+/* => 13* МАРТА */
+/* To Do */
+
 
 
 
