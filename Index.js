@@ -1,5 +1,6 @@
 /* circle_1 */
 $(document).ready(function() {
+
     $(".circle_1").mouseenter(function() {
         $(".circle_1").css("background-color", "yellow");
         $( "p:first", this ).text("Yeeeee ^_^");
@@ -68,12 +69,12 @@ $(document).ready(function(){
 
 /* Slide Up/Down */
 $(document).ready(function(){
+    $(".panel").slideToggle(0);
     $('.pull-me').click(function(){
         $(".panel").slideToggle("slow");
     });
 });
 
-/* => 13* МАРТА */
 /* To Do */
 
 
