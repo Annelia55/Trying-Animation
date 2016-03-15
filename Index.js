@@ -76,7 +76,12 @@ $(document).ready(function(){
 });
 
 /* To Do */
-
+$(document).ready(function(){
+    $("#button").click(function(){
+        var toAdd = $("input[name=checkListItem]").val();
+        
+    };
+});
 
 
 
