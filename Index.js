@@ -78,6 +78,9 @@ $(document).ready(function(){
 /* To Do */
 $(document).ready(function(){
     $("#ToDobtn").click(function(){
+        $(document).on("click", ".item", function() {
+            $(this).remove();
+        });
         var toAdd = $("input[name=checkListItem]").val();
         $(".list").append('<div class="item">' + toAdd + '</div>');
     });
