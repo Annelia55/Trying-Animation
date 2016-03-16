@@ -77,10 +77,10 @@ $(document).ready(function(){
 
 /* To Do */
 $(document).ready(function(){
-    $("#button").click(function(){
+    $("#ToDobtn").click(function(){
         var toAdd = $("input[name=checkListItem]").val();
-        
-    };
+        $(".list").append('<div class="item">' + toAdd + '</div>');
+    });
 });
 
 
