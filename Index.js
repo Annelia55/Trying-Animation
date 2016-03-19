@@ -62,7 +62,7 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $("#light").click(function(){
+    $("#light").dblclick(function(){
         $(this).addClass("highlighted");
     });
 });
