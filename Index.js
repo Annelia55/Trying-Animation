@@ -84,9 +84,19 @@ $(document).ready(function(){
         var toAdd = $("input[name=checkListItem]").val();
         $(".list").append('<div class="item">' + toAdd + '</div>');
     });
+    $("input").focus(function(){
+        $(this).css("outline-color", "white");
+    });
 });
 
-
+/* super man */
+$(document).ready(function(){
+    $(document).bind('keypress', function(e) {
+        if ((e.keyCode || e.which) == 13) {
+            $(".flying_smile").animate({bottom: "+=800px"}, 1000)
+        };
+    });
+});
 
 
 

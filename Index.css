@@ -61,6 +61,7 @@ mark {
     margin-top: 25px;
     padding: 10px;
     cursor:pointer;
+    border-radius: 10px;
 }
 
 /* Slide Up/Down */
@@ -128,24 +129,19 @@ form {
     margin-top:2px;
 }
 
-/* Navbar */
-#nav {
-    border-radius: 30px;
-    background-color: #d9c191;
-    transition: background-color 0.5s ease;
-    display:inline;
-    font-size:16px;
-    padding:10px;
-    border-bottom: 1px dashed white;
-    color:white;
+/* super man */
+.flying_smile {
+    margin-top: 30px;
+}
+.flying_text {
+    background-color: white;
+    margin-right: 25px;
+    border-radius: 10px;
+}
 
-}
-.navbar {
-    margin-top:65px;
-}
-#activeNav {
-    background-color: red;
-}
+
+
+
 
 
 
