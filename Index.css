@@ -129,6 +129,68 @@ form {
     margin-top:2px;
 }
 
+/* dropdown menu */
+.menu {
+    margin-top: 55px;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #d9c191;
+    opacity: 0.7;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+    border-right: 1px solid white;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: #b7a180;
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 90px;
+    top: 38px;
+    left: 0;
+    background-color: #b7a180;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    opacity: 1;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #d9c191;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    background-color: #b7a180;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
 /* super man */
 .flying_smile {
     margin-top: 30px;
@@ -138,6 +200,8 @@ form {
     margin-right: 25px;
     border-radius: 10px;
 }
+
+
 
 
 
