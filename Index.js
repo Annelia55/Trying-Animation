@@ -92,7 +92,8 @@ $(document).ready(function(){
 /* super man */
 $(document).ready(function(){
     $(document).bind('keypress', function(e) {
-        if ((e.keyCode || e.which) == 13) {
+        var ENTER_CODE = 13;
+        if ((e.keyCode || e.which) == ENTER_CODE) {
             $(".flying_smile").animate({bottom: "+=800px"}, 1000)
         };
     });
