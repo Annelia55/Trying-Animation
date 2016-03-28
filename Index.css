@@ -8,6 +8,11 @@ h1 {
     font-family: Jura, san-serif;
     margin-bottom: 50px;
 }
+#page {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
 p {
     text-align: center;
     margin-top: 30px;

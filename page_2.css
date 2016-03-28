@@ -1,0 +1,22 @@
+/* оформление */
+body {
+    background-color: #a5ecff;
+}
+h1 {
+    text-align: center;
+    color: #455785;
+    padding: 20px;
+    font-family: Jura, san-serif;
+    margin-bottom: 50px;
+}
+mark {
+    background-color: white;
+    border: 1px solid black;
+}
+#page {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* */
