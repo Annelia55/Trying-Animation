@@ -18,5 +18,24 @@ mark {
     border: 1px solid black;
     text-align: center;
 }
+ p {
+     text-align: center;
+ }
 
-/* */
+/* Sortable books and authors */
+li.les13{
+    background: #f9e8bf;
+    border:1px solid black;
+    color:black;
+    margin:2px;
+    padding:2px;
+}
+#les13_ex1, #les13_ex2{
+    width:200px;
+    float: left;
+}
+.sort {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+}
