@@ -1,3 +1,7 @@
-$(document).ready(function(){
+$(document).ready(init);
 
-});
+function init(){
+    $(function(){
+        $("#authors").sortable();
+    });
+}
