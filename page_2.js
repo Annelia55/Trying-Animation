@@ -5,3 +5,8 @@ function init(){
         $("#authors").sortable();
     });
 }
+$(function(){
+    $("#authors").sortable({
+        containment: 'parent'
+    });
+});
