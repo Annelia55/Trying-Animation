@@ -20,6 +20,8 @@ mark {
 }
  p {
      text-align: center;
+     background-color: white;
+     border: 1px solid black;
  }
 
 /* Sortable books and authors */
@@ -50,3 +52,8 @@ li.les13{
 }
 
 /* Selectsble breeds */
+#breeds {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
