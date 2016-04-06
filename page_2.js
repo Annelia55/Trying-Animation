@@ -36,3 +36,10 @@ $(document).ready(function() {
 });
 
 /* Selectsble breeds */
+$(document).ready(function);
+
+function init(){
+    $(function(){
+        $("#breeds").selectable()
+    });
+};
