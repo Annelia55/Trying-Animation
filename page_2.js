@@ -40,21 +40,21 @@ $(document).ready(init);
 
 function init(){
     $(function(){
-        $("#les14_selectable").selectable()
+        $("#breeds").selectable()
     });
 };
 $(document).ready(init);
 
 function init(){
     $(function(){
-        $("#les14_selectable").selectable({
+        $("#breeds").selectable({
             selected: function(event, ui) {
                 var a=ui.selected;
-                if ($(a).hasClass("fruit")){
-                    $("#les14_ex2").text("Да, " + ui.selected.innerHTML + " это фрукт! ");
+                if ($(a).hasClass("cat")){
+                    $("#les14_ex2").text("Да, " + ui.selected.innerHTML + " это котик! ");
                 }
                 else {
-                    $("#les14_ex2").text("Нет, " + ui.selected.innerHTML + " это не фрукт! ");
+                    $("#les14_ex2").text("Нет, " + ui.selected.innerHTML + " это пёс! ");
                 }
             }
         })

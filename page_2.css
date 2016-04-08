@@ -54,28 +54,31 @@ li.les13{
 /* Selectsble breeds */
 #les14_ex1, #les14_ex2{
     float:left;
+    background-color: white;
+    border: 1px solid black;
 }
 #les14_ex2{
     margin:20px;
     padding:10px;
-    color: #6600ff;
+    color: red;
+    background-color: #f9e8bf;
 }
-#les14_selectable {
+#breeds {
     list-style-type: none;
     width: 200px;
 }
-#les14_selectable li {
+#breeds li {
     margin: 3px;
     padding: 3px;
-    font-size: 12px;
-    height: 18px;
-    background:#cc99ff;
-    border:1px solid #6600ff;
+    font-size: 14px;
+
+    background:#f9e8bf;
+    border:1px solid black;
 }
-#les14_selectable .ui-selecting {
-    background: #9933ff;
+#breeds .ui-selecting {
+    background: white;
 }
-#les14_selectable .ui-selected {
-    background: #9933ff;
-    color: white;
+#breeds .ui-selected {
+    background: white;
+    color: red;
 }
