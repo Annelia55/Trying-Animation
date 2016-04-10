@@ -60,3 +60,9 @@ function init(){
         })
     });
 };
+/* Explode */
+$(document).ready(function(){
+    $('#bomb').click(function(){
+        $(this).effect('explode', {pieces: 30}, 1000 );
+    });
+});
