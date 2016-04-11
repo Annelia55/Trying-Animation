@@ -60,9 +60,17 @@ function init(){
         })
     });
 };
+
 /* Explode */
 $(document).ready(function(){
     $('#bomb').click(function(){
         $(this).effect('explode', {pieces: 30}, 1000 );
+    });
+});
+
+/* Shame */
+$(document).ready(function(){
+    $('#shame').click(function(){
+        $(this).effect('clip');
     });
 });
