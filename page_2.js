@@ -74,3 +74,8 @@ $(document).ready(function(){
         $(this).effect('clip');
     });
 });
+
+/* Menu */
+$(document).ready(function() {
+    $("#menu").accordion({collapsible: true, active: false});
+});
