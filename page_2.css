@@ -88,3 +88,19 @@ li.les13{
     margin-left: 10px;
     padding: 10px;
 }
+
+/* Menu */
+#menu {
+    margin-left: 20px;
+    text-align: center;
+}
+#menu p {
+    border-radius: 20px;
+}
+h3 {
+    background-color: #f9e8bf;
+    padding: 5px;
+    border: 1px solid black;
+    cursor:s-resize;
+    border-radius: 20px;
+}
