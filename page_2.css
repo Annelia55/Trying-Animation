@@ -104,3 +104,13 @@ h3 {
     cursor:s-resize;
     border-radius: 20px;
 }
+
+/* Puff */
+#butterfly {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.puff p {
+    margin-top: 10px;
+    margin-left: 40px;
+}

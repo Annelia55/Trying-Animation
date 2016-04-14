@@ -79,3 +79,8 @@ $(document).ready(function(){
 $(document).ready(function() {
     $("#menu").accordion({collapsible: true, active: false});
 });
+
+/* Puff */
+$( document ).click(function() {
+    $( "#butterfly" ).toggle( "puff", 3000 );
+});
