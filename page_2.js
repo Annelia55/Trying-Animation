@@ -81,6 +81,13 @@ $(document).ready(function() {
 });
 
 /* Puff */
-$( document ).click(function() {
+$( document ).ready(function() {
+    $("#butterfly").click(function(){
     $( "#butterfly" ).toggle( "puff", 3000 );
+        });
+});
+
+/* Resize - fix */
+$(document).ready(function(){
+    $('#resize').resizable();
 });
