@@ -116,14 +116,3 @@ h3 {
     margin-left: 40px;
 }
 
-/* Resize */
-.res {
-    margin-left: 50px;
-    margin-top: 20px;
-}
-#resize {
-    height: 100px;
-    background-color: #f9e8bf;
-    text-align: center;
-    border: 1px solid black;
-}
