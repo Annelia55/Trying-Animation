@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Animation</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     <link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
@@ -13,93 +13,95 @@
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
 
-    <script type="text/javascript" src="page_2.js"></script>
-    <link type="text/css" rel="stylesheet" href="page_2.css"/>
+    <script type="text/javascript" src="js/page_2.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/page_2.css"/>
 
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12" id="page">
-            <a href="Index.html">1</a>
-            <a href="page_2.html">2</a>
-            <a href="page_3.html">3</a>
-        </div>
-        <div class="col-md-12">
-            <h1><mark>Animation</mark></h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-5 sort">
-            <p>Расположите название книги напротив её создателя.</p>
-            <div id="les13_ex1">
-                <ul id="books">
-                    <li class="les13">Булгаков М.А.</li>
-                    <li class="les13">Толстой Л.Н.</li>
-                    <li class="les13">Пушкин А.С.</li>
-                    <li class="les13">Хемингуэй С.М.</li>
-                    <li class="les13">Уильям Шекспир</li>
-                </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12" id="page">
+                <a href="Index.html">1</a>
+                <a href="page_2.html">2</a>
+                <a href="page_3.html">3</a>
             </div>
-            <div id="les13_ex2">
-                <ul id="authors">
-                    <li class="les13">"Евгений Онегин"</li>
-                    <li class="les13">"Старик и Море"</li>
-                    <li class="les13">"Война и Мир"</li>
-                    <li class="les13">"Гамлет"</li>
-                    <li class="les13">"Мастер и Маргарита"</li>
-                </ul>
+            <div class="col-lg-12 col-md-12">
+                <h1><mark>Animation</mark></h1>
             </div>
         </div>
-        <div class="col-md-2">
-            <img class="run" src="images/run.png" />
-        </div>
-        <div class="col-md-5">
-            <p>А вы знаете, какие из этих пород кошачьи?</p>
-            <div id="les14_ex1">
-                <ol id="breeds">
-                    <li class="cat">Девон рекс</li>
-                    <li class="dog">Джек рассел</li>
-                    <li class="cat">Петерболд</li>
-                    <li class="cat">Лаперм</li>
-                    <li class="dog">Вельш корги</li>
-                    <li class="cat">Серенгети</li>
-                    <li class="dog">Веймаранер</li>
-                </ol>
-            </div>
-            <div id="les14_ex2"></div>
-        </div>
-        <div class="col-md-2">
-            <img id="bomb" src="images/bomb.png" />
-            <p>Осторожно! Взрывоопасно!</p>
-        </div>
-        <div class="col-md-2">
-            <img id="shame" src="images/shame.png" />
-            <p>Не трогай меня, я снесняюсь</p>
-        </div>
-        <div class="col-md-2">
-            <div id="menu">
-                <h3>First line</h3>
-                <div>
-                    <p>Some text which I decieded to put inside the first line.</p>
+
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-7 col-xs-9 sort">
+                <p>Расположите название книги напротив её создателя.</p>
+                <div id="les13_ex1">
+                    <ul id="books">
+                        <li class="les13">Булгаков М.А.</li>
+                        <li class="les13">Толстой Л.Н.</li>
+                        <li class="les13">Пушкин А.С.</li>
+                        <li class="les13">Хемингуэй С.М.</li>
+                        <li class="les13">Уильям Шекспир</li>
+                    </ul>
                 </div>
-                <h3>Second line</h3>
-                <div>
-                    <p>Some text which I decieded to put inside the second line.</p>
+                <div id="les13_ex2">
+                    <ul id="authors">
+                        <li class="les13">"Евгений Онегин"</li>
+                        <li class="les13">"Старик и Море"</li>
+                        <li class="les13">"Война и Мир"</li>
+                        <li class="les13">"Гамлет"</li>
+                        <li class="les13">"Мастер и Маргарита"</li>
+                    </ul>
                 </div>
-                <h3>Third line</h3>
-                <div>
-                    <p>Some text which I decieded to put inside the third line.</p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5">
+                <img class="run" src="images/run.png" />
+                <p>Заставь толстяка побежать. Жми стрелочки</p>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-7 col-xs-9 sort-breeds">
+                <p>А вы знаете, какие из этих пород кошачьи?</p>
+                <div id="les14_ex1">
+                    <ol id="breeds">
+                        <li class="cat">Девон рекс</li>
+                        <li class="dog">Джек рассел</li>
+                        <li class="cat">Петерболд</li>
+                        <li class="cat">Лаперм</li>
+                        <li class="dog">Вельш корги</li>
+                        <li class="cat">Серенгети</li>
+                        <li class="dog">Веймаранер</li>
+                    </ol>
                 </div>
-                <p>Нажми на строчку</p>
+                <div id="les14_ex2"></div>
             </div>
         </div>
-        <div class="col-md-2 puff">
-            <img id="butterfly" src="images/butterfly.jpg" />
-            <p>Жми на бабочку</p>
-        </div>
-        <div class="col-md-3">
-            <div></div>
+        <div class="row content">
+            <div class="col-lg-2 col-md-3 col-xs-12 col-sm-3 col-xs-6">
+                <img id="bomb" src="images/bomb.png" />
+                <p>Осторожно! Взрывоопасно!</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-xs-12 col-sm-3 col-xs-6">
+                <img id="shame" src="images/shame.png" />
+                <p>Не трогай меня, я снесняюсь</p>
+            </div>
+            <div class="col-lg-2 col-md-6 col-xs-12 col-sm-5">
+                <div id="menu">
+                    <h3>First line</h3>
+                    <div>
+                        <p>Some text which I decieded to put inside the first line.</p>
+                    </div>
+                    <h3>Second line</h3>
+                    <div>
+                        <p>Some text which I decieded to put inside the second line.</p>
+                    </div>
+                    <h3>Third line</h3>
+                    <div>
+                        <p>Some text which I decieded to put inside the third line.</p>
+                    </div>
+                    <p>Нажми на строчку</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-md-push-2 col-sm-4 col-xs-4 col-xs-push-4 puff">
+                <img id="butterfly" src="images/butterfly.jpg" />
+                <p>Жми на бабочку</p>
+            </div>
         </div>
     </div>
 </body>

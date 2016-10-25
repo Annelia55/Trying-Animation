@@ -29,7 +29,7 @@ mark {
     background-color: #e5cc94;
     border-radius:120px;
     margin-bottom:5px;
-    margin-left: -70px;
+    margin-left: -40px;
     border: 1px solid black;
 }
 
@@ -206,7 +206,28 @@ ul.menu > li:hover > ul.submenu {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 1275px) {
+    .circle_1 {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .book {
+        margin-top: 50px;
+    }
+    .panel-move {
+        margin-top: 70px;
+    }
+    .to-do-list {
+        margin-top: 40px;
+    }
+    .flying_smile {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: px) {
 
+}
 
 
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Animation</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     <link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
@@ -12,93 +12,93 @@
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
-    <script type="text/javascript" src="Index.js"></script>
-    <link type="text/css" rel="stylesheet" href="Index.css"/>
+    <script type="text/javascript" src="js/Index.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/Index.css"/>
 
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12" id="page">
-            <a href="Index.html">1</a>
-            <a href="page_2.html">2</a>
-            <a href="page_3.html">3</a>
-        </div>
-        <div class="col-md-12">
-            <h1><mark>Animation</mark> <br></h1>
-        </div>
-
-    </div>
-    <div class="row">
-        <div class="col-md-2">
-            <div class="circle_1"><p>Touch me and I'll grow</p></div>
-        </div>
-        <div class="col-md-2">
-             <div class="drag ui-widget-content"><img src="images/drag.png" alt="smile" onmouseout="this.src='images/drag_3.png'" onmouseover="this.src='images/drag_2.png'" /><p id="label">I want to be in another place</p></div>
-        </div>
-        <div class="col-md-2">
-            <img id="dog" src="images/dog.jpg" />
-            <br/>
-            <button class="btn">Click me!</button>
-        </div>
-        <div class="col-md-2 book">
-            <img class="dis" src="images/book.png" />
-            <img class="dis" src="images/book.png" />
-            <img class="dis" src="images/book.png" />
-            <img class="dis" src="images/book.png" />
-            <img class="dis" src="images/book.png" />
-            <img class="dis" src="images/book.png" />
-            <img class="dis" src="images/book.png" />
-            <img class="dis" src="images/book.png" />
-            <img class="dis" src="images/book.png" />
-            <p id="light">Images can disappear!<br>
-            (Double click this text to highlight it)</p>
-        </div>
-        <div class="col-md-2 panel-move">
-            <div>
-                <p class="panel">This is a secret text.
-                    <br>
-                    Noboby should see it.
-                    <br>
-                    Press "Slide Up/Down" to hide it.</p>
-                <p class="pull-me slide">Slide Up/Down</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" id="page">
+                <a href="Index.html">1</a>
+                <a href="page_2.html">2</a>
+                <a href="page_3.html">3</a>
+            </div>
+            <div class="col-lg-12">
+                <h1><mark>Animation</mark> <br></h1>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-3">
-            <h2><span class="ToDoh2">To Do</span></h2>
-            <form name="checkListForm">
-                <input type="text" name="checkListItem" placeholder="Add your item"/>
-            </form>
-            <div id="ToDobtn">Add!</div>
-            <br/>
-            <div class="list"></div>
+
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                <div class="circle_1"><p>Touch me and I'll grow</p></div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                 <div class="drag ui-widget-content"><img src="images/drag.png" alt="smile" onmouseout="this.src='images/drag_3.png'" onmouseover="this.src='images/drag_2.png'" /><p id="label">I want to be in another place</p></div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5">
+                <img id="dog" src="images/dog.jpg" />
+                <br/>
+                <button class="btn">Click me!</button>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-5 col-xs-4 book">
+                <img class="dis" src="images/book.png" />
+                <img class="dis" src="images/book.png" />
+                <img class="dis" src="images/book.png" />
+                <img class="dis" src="images/book.png" />
+                <img class="dis" src="images/book.png" />
+                <img class="dis" src="images/book.png" />
+                <img class="dis" src="images/book.png" />
+                <img class="dis" src="images/book.png" />
+                <img class="dis" src="images/book.png" />
+                <p id="light">Images can disappear!<br>
+                (Double click this text to highlight it)</p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-5 col-xs-4 panel-move">
+                <div>
+                    <p class="panel">This is a secret text.
+                        <br>
+                        Noboby should see it.
+                        <br>
+                        Press "Slide Up/Down" to hide it.</p>
+                    <p class="pull-me slide">Slide Up/Down</p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-3">
-            <div>
-                <ul class="menu">
-                    <li><a href="#">Menu_1</a></li>
-                    <li><a href="#">Menu_2</a></li>
-                    <li><a href="#">Menu_3</a>
-                    <ul class="submenu">
-                        <li><a href="#">Submenu_1</a></li>
-                        <li><a href="#">Submenu_2</a></li>
-                        <li><a href="#">Submenu_3</a></li>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 to-do-list">
+                <h2><span class="ToDoh2">To Do</span></h2>
+                <form name="checkListForm">
+                    <input type="text" name="checkListItem" placeholder="Add your item"/>
+                </form>
+                <div id="ToDobtn">Add!</div>
+                <br/>
+                <div class="list"></div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                <div>
+                    <ul class="menu">
+                        <li><a href="#">Menu_1</a></li>
+                        <li><a href="#">Menu_2</a></li>
+                        <li><a href="#">Menu_3</a>
+                        <ul class="submenu">
+                            <li><a href="#">Submenu_1</a></li>
+                            <li><a href="#">Submenu_2</a></li>
+                            <li><a href="#">Submenu_3</a></li>
+                        </ul>
+                        </li>
                     </ul>
-                    </li>
-                </ul>
+                </div>
             </div>
         </div>
-        <div class="col-md-4">
-
+        <div class="row">
+            <div class="col-lg-2 col-lg-push-10 col-md-2 col-md-push-10 col-sm-3 col-xs-4 col-xs-push-4 flying_smile">
+                <div><img src="images/flying_smile.png" alt="super man"></div>
+                <p class="flying_text">I believe I can fly! <br>
+                (Press "Enter")</p>
+            </div>
         </div>
-        <div class="col-md-2 flying_smile">
-            <div><img src="images/flying_smile.png" alt="super man"></div>
-            <p class="flying_text">I believe I can fly! <br>
-            (Press "Enter")</p>
-        </div>
-</div>
-
+    </div>
 </body>
 </html>
