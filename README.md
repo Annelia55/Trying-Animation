@@ -1,7 +1,7 @@
 # Animation
 Studying animation effects with help of jQuery and JavaScript.<br>
-[(Link)](https://rawgit.com/anelliabe/Trying-Animation/master/Index.html)<br>
+[(Link)](https://rawgit.com/atanyday/Trying-Animation/master/Index.html)<br>
 <br>
-=> [Demo video](https://youtu.be/iVZrj8_i2Og?list=PLE3Col1EpD_1RNo0HncnqJr1VfN2TpuzC)
+=> [Demo video](https://youtu.be/Dlqzjvtdj5A?list=PLfslS7IBS7XccqD7Yet2KDusjarx1G2Lv)
 <br>
 ![Main page](images/Main_page.jpg)
